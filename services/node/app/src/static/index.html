@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Make your link short again!</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #333;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+        }
+        input {
+            font-family: sans-serif;
+            background: #444;
+            color: #888;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 10px 10px;
+            max-width: 800px;
+            width: 100%;
+        }
+        input:focus {
+            outline-color: #888;
+        }
+        form {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        button {
+            border: none;
+            background: #1687ff;
+            color: #cce6ff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <input name="url" type="url" autocomplete="off" required />
+        <button>Shorten</button>
+    </form>
+</body>
+</html>
