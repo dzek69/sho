@@ -13,6 +13,7 @@ const env = {
     APP_PORT: process.env.APP_PORT,
     APP_DB_PORT: process.env.APP_DB_PORT,
     APP_DB_NAME: process.env.APP_DB_NAME,
+    APP_DB_HOST: process.env.APP_DB_HOST,
     APP_ROOT: process.env.APP_ROOT,
 };
 console.info("Staring shortener", env);
