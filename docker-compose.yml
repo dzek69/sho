@@ -3,7 +3,7 @@ services:
   node:
     build: ./services/node
     container_name: node
-    image: docker.nitra.pl/nitra/short:1.0.1
+    image: docker.nitra.pl/nitra/short:1.0.2
     restart: always
     environment:
       - "APP_DB_PORT=13000"

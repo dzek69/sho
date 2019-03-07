@@ -43,7 +43,7 @@ const entities = new Entities();
         app.post("/@", async (req, res) => {
             try {
                 const url = req.body.url;
-                if (!url) {
+                if (!url || !url.includes(":")) {
                     res.sendStatus(HTTP_BAD_REQUEST);
                     return;
                 }
@@ -53,7 +53,6 @@ const entities = new Entities();
                     url,
                 });
                 res.redirect("/" + link + "?");
-                // @todo validate url
                 // @todo check for dupes
             }
             catch (e) {
