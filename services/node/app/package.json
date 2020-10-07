@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "repository": "ssh://dzek@web2.mydevil.net/home/dzek/repo/git/priv/sho",
   "author": "Jacek Nowacki @dzek69 <git-public@dzek.eu>",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "test": "cross-env NODE_ENV=testing mocha 'src/**/*.spec.js'",
