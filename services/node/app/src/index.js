@@ -91,5 +91,6 @@ const entities = new Entities();
     }
     catch (e) {
         console.error("App can't start", e);
+        throw e;
     }
 })();

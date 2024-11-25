@@ -1,10 +1,15 @@
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+The format is based on [EZEZ Changelog](https://ezez.dev/changelog/).
 
 ## [UNRELEASED]
 (nothing yet)
+
+## [1.1.2] - 2024-11-25
+### Dev
+- deps update, remove unused ones
+### Changed
+- exit non zero code in case of a crash
 
 ## [1.1.1] - 2019-03-02
 ### Changed
